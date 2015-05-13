@@ -14,6 +14,7 @@ $ tree
 ├── README.md
 ├── foo-bar.cabal
 ├── src
+│   └── Main.hs
 │   └── Foo
 │       ├── Bar
 │       │   └── Internal.hs
