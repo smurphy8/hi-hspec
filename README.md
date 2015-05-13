@@ -10,15 +10,15 @@ $ hi -m Foo.Bar -p foo-bar  -r git@github.com:fujimura/hi-hspec.git
 $ tree
 .
 ├── ChangeLog.md
+├── foo-bar.cabal
 ├── LICENSE
 ├── README.md
-├── foo-bar.cabal
 ├── src
+│   ├── Foo
+│   │   ├── Bar
+│   │   │   └── Internal.hs
+│   │   └── Bar.hs
 │   └── Main.hs
-│   └── Foo
-│       ├── Bar
-│       │   └── Internal.hs
-│       └── Bar.hs
 └── test
     ├── Foo
     │   └── BarSpec.hs
