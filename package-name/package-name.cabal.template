@@ -33,9 +33,10 @@ Test-Suite spec
   Hs-Source-Dirs:       src
                       , test
   Ghc-Options:          -Wall
-  Main-Is:              Main.hs
+  Main-Is:              Spec.hs
   Build-Depends:        base
-                      , tasty
+                      , regex-genex
+                      , tasty                      
                       , tasty-golden
                       , tasty-hunit
                       , tasty-quickcheck
