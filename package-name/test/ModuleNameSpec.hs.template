@@ -1,4 +1,4 @@
-module ${moduleName}Spec where
+module ${moduleName}Spec (tests) where
 
 import ${moduleName}
 
@@ -8,8 +8,6 @@ import Test.Tasty.HUnit
 
 import Data.List
 import Data.Ord
-
-main = defaultMain tests
 
 tests :: TestTree
 tests = testGroup "Tests" [properties, unitTests]

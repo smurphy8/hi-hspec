@@ -1,4 +1,7 @@
-module Main () where
+module Main where
 
 
 import ${moduleName}Spec 
+import Test.Tasty
+
+main = defaultMain tests
