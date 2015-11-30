@@ -35,7 +35,12 @@ Test-Suite spec
   Ghc-Options:          -Wall
   Main-Is:              Spec.hs
   Build-Depends:        base
-                      , hspec
+                      , tasty
+                      , tasty-golden
+                      , tasty-hunit
+                      , tasty-quickcheck
+                      , QuickCheck
+                      
 
 Source-Repository head
   Type:                 git
