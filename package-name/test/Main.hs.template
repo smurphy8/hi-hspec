@@ -4,4 +4,5 @@ module Main where
 import ${moduleName}Spec 
 import Test.Tasty
 
+main :: IO ()
 main = defaultMain tests
