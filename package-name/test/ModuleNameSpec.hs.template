@@ -13,7 +13,7 @@ tests :: TestTree
 tests = testGroup "Tests" [properties, unitTests]
 
 properties :: TestTree
-properties = testGroup "Properties" [scProps, qcProps]
+properties = testGroup "Properties" [qcProps]
 
 qcProps = testGroup "(checked by QuickCheck)"
   [ QC.testProperty "sort == sort . reverse" (
