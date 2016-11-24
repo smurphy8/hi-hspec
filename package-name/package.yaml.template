@@ -4,7 +4,6 @@ author: $author <$email>
 maintainer: $author <$email>
 license: BSD3
 git: ''
-resolver: 7.9
 extra-source-files:
 - README.md
 - ChangeLog.md
